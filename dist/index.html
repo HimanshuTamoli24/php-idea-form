@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div
+      class="container max-w-3xl mx-auto bg-blue-400 rounded-lg border border-blue-700 p-10"
+    >
+      <h1 class="text-center font-bold text-3xl text-gray-900">
+        <span class="text-blue-600">Dear user,</span> wanna share your idea??
+      </h1>
+      <p class="text-center text-gray-700 text-xl my-5">write it here down!</p>
+      <form action="" method="post">
+        <input
+          type="text"
+          name="name"
+          id="ngitame"
+          placeholder="Enter your Name"
+          required
+          class="w-full px-4 py-2 rounded border border-blue-700 bg-blue-200 mb-5"
+        />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your E-mail"
+          required
+          class="w-full px-4 py-2 rounded border border-blue-700 bg-blue-200 mb-5"
+        />
+        <textarea
+          name="text"
+          id="text"
+          rows="10"
+          cols="10"
+          placeholder="Write your idea here"
+          required
+          class="w-full px-4 py-2 rounded border border-blue-700 bg-blue-200"
+        ></textarea>
+        <div class="Button flex justify-center mt-5">
+          <button
+            type="button"
+            class="bg-blue-700 text-white font-bold px-6 py-2 rounded mr-2 hover:bg-blue-800"
+          >
+            SUBMIT
+          </button>
+          <button
+            type="button"
+            class="bg-red-700 text-white font-bold px-6 py-2 rounded hover:bg-red-800"
+          >
+            RESET
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
